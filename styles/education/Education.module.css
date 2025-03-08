@@ -1,0 +1,24 @@
+/* Education.module.css */
+.education {
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    padding: 40px;
+    text-align: center;
+  }
+  
+  .edu-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .edu-table th, .edu-table td {
+    border: 1px solid var(--primary-color);
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .edu-table th {
+    background-color: var(--accent-color);
+    color: var(--secondary-color);
+  }

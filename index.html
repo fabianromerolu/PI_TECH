@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/png" href="public/icon.png" />
+  <link rel="stylesheet" type="text/css" href="style.css" />
+  <link rel="stylesheet" type="text/css" href="styles/header/Header.module.css" />
+  <link rel="stylesheet" type="text/css" href="styles/navBar/NavBar.module.css" />
+  <link rel="stylesheet" type="text/css" href="styles/section1/Section1.module.css" />
+  <link rel="stylesheet" type="text/css" href="styles/taskContainer/TaskContainer.module.css" />
+  <link rel="stylesheet" type="text/css" href="styles/education/Education.module.css" />
+  <link rel="stylesheet" type="text/css" href="styles/projects/Projects.module.css" />
+  <link rel="stylesheet" type="text/css" href="styles/contact/Contact.module.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Web developer">
+  <meta name="keywords" content="Fabián, developer, law">
+  <meta name="author" content="Fabián Romero Lugo">
+  <title>Fabián, R.</title>
+  <style>
+    :root {
+      --primary-color: #000;
+      --secondary-color: #fff;
+      --accent-color: #000;
+    }
+  </style>
+</head>
+<body>
+  <header class="header">
+    <div class="logo">Menu</div>
+    <nav class="nav">
+        <ul class="ul">
+            <li class="li"><a href="#section1" class="a">Home</a></li>
+            <li class="li"><a href="#education" class="a">Education</a></li>
+            <li class="li"><a href="#projects" class="a">Projects</a></li>
+            <li class="li"><a href="#contact" class="a">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+  <section id="section1" class="section1">
+    <div class="div1section1">
+      <img class="imgperfil" src="public/perfilweb.png">
+    </div>
+    <div class="div2section1">
+      <h1 class="h1title">Fabián Romero Lugo</h1>
+      <p class="pdescrip">Web developer and law student with an innovative passion for technology and intellectual property. My career combines technical skills in web application development using JavaScript, React, Node.js, and agile methodologies, with a deep interest in the legal realm of patents and copyright. I aim to create digital solutions that are not only technologically advanced but also legally sound, leveraging my background in systems and law to transform complex challenges into innovation opportunities. My focus is on developing projects that integrate creativity, technical rigor, and legal perspective, with the goal of making significant contributions to the digital and legal ecosystem.</p>
+      <span class="spanchanels">Want to know more about me? Check out my other channels!</span>
+      <div class="links">
+        <a class="btn">Github</a>
+        <a class="btn">Linkedin</a>
+        <a class="btn">Instagram</a>
+        <a class="btn">X/twitter</a>
+        <a class="btn">Discord</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="education" class="education">
+    <h2>Education</h2>
+    <table class="edu-table">
+      <tr><th>Formación</th><th>Institución</th><th>Duración</th></tr>
+      <tr><td>Pregrado en Derecho</td><td>Universidad Cooperativa de Colombia</td><td>2022 - 2027</td></tr>
+      <tr><td>Técnico en programación de Software</td><td>SENA</td><td>2024 - 2026</td></tr>
+      <tr><td>Bootcamp de programación</td><td>MINTIC</td><td>2024 - 2025</td></tr>
+      <tr><td>Programador full stack</td><td>Alura Latam - Oracle</td><td>2024 - 2025</td></tr>
+      <tr><td>Full Stack Developer Frontend</td><td>Henry</td><td>2023 - 2025</td></tr>
+    </table>
+  </section>
+
+  <section id="projects" class="projects">
+    <h2>Projects</h2>
+    <div class="project-container">
+      <!-- 10 tarjetas de proyectos -->
+      <div class="card">Proyecto 1</div>
+      <div class="card">Proyecto 2</div>
+      <div class="card">Proyecto 3</div>
+      <div class="card">Proyecto 4</div>
+      <div class="card">Proyecto 5</div>
+      <div class="card">Proyecto 6</div>
+      <div class="card">Proyecto 7</div>
+      <div class="card">Proyecto 8</div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Contact</h2>
+    <div class="contact-container">
+      <div class="contact-form">
+        <input type="text" placeholder="Nombre" required />
+        <input type="tel" placeholder="Teléfono" required/>
+        <input type="email" placeholder="Correo" required/>
+        <textarea placeholder="Motivo de contacto (máx. 200 palabras)"></textarea>
+        <button>Enviar</button>
+      </div>
+      <div class="contact-image">
+        <img src="https://images.unsplash.com/photo-1515879218367-8466d910aaa4?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y29kaWdvJTIwZGUlMjBwcm9ncmFtYWNpb258ZW58MHx8MHx8fDA%3D" alt="Programación">
+      </div>
+    </div>
+  </section>
+  
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+  <script src="script.js"></script>
+  <script src="config.js" defer></script>
+</body>
+</html>
